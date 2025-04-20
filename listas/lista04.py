@@ -1,4 +1,4 @@
-'''#1036 – Fórmula de Bhaskara
+#1036 – Fórmula de Bhaskara
 
 a = float(input())
 b = float(input())
@@ -147,7 +147,7 @@ for k in range(numeros):
         print("divisao impossivel")
     else:
         resultado = nu / me
-        print(f"{resultado:.1f}")'''
+        print(f"{resultado:.1f}")
 
 #1151 – Fibonacci Fácil  
 
