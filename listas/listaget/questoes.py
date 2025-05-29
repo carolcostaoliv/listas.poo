@@ -19,9 +19,8 @@ class retangulo:
     def __str__(self):
         return f'base: {self.__b} e altura:{self.__h}'
     
-x = retangulo()
-x.set_h(10)
-x.set_b(20)
+x = retangulo(10, 20)
+
 print(x)
 print(f'{x.calcdiagonal():.2f}')
 print(f'{x.calcarea():.2f}')
