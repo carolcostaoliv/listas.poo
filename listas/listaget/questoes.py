@@ -1,7 +1,7 @@
 class retangulo:
-    def __init__(self):
-        self.__h = 1
-        self.__b = 1
+    def __init__(self, b, h):
+        self.set_b(b)
+        self.set_h(h)
     def set_h (self, v):
         if self.__h < 0: raise ValueError("Altura menor do que 0")
         self.__h = v
